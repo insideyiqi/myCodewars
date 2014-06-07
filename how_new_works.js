@@ -11,3 +11,6 @@
 // However, I will scrunch my eyebrows when I see your solution and make quiet remarks to myself about how you don't 
 // understand what this kata is trying to teach you.
 
+var myObj = {};
+myObj.__proto__=MyObject.prototype;
+MyObject.call(myObj); 
